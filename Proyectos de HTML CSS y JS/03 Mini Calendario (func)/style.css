@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Press+Start+2P&family=Spicy+Rice&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container-calendario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; /* esto sirve para centrar el container */
+    left: 50%;          /* esto sirve para centrar el container */
+    top: 50%;           /* esto sirve para centrar el container */
+    transform: translate(-50%, -50%);/* esto sirve para centrar el container */
+    gap: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 3px solid #333;
+}
+.mes{
+    box-sizing: border-box;
+    background-color: rgb(14, 148, 153);
+    width: 100%;
+    height: 100%;
+    padding: 10px 15px;
+
+    color: #fafafa;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.dia{
+    color: #333;
+    font-size: 12px;
+    padding: 5px;
+}
+.dia-num{
+    color: #1f1f1f;
+    font-size: 25px;
+    padding: 20px;
+}
+.año{
+    color: #333;
+    font-size: 12px;
+    padding: 5px;
+}
